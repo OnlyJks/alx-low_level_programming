@@ -2,14 +2,10 @@
 #include <stdlib.h>
 
 /**
+ * main - returns alphabets both lower and upper cases
  *
- *  main - returns alphabets both lower and upper cases
- *
- *
- *  Return: Always 0 (Success)
- * 
+ * Return: Always 0 (Sucess)
  */
-
 int main(void)
 {
 	int ch = 'a';
@@ -17,18 +13,15 @@ int main(void)
 
 	while (ch <= 'z')
 	{
-		putchar(ch);									ch++;							
+		putchar(ch);
+		ch++;
 	}
 	while (CH <= 'Z')
-	{											putchar(CH);
-				CH++;
+	{
+		putchar(CH);
+		CH++;
+	}
 
-													}
-
-
-
-						putchar('\n');
-
-							return (0);
-
+	putchar('\n');
+	return (0);
 }
